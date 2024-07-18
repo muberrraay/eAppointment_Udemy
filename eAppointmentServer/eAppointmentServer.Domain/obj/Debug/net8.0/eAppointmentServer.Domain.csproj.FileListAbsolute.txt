@@ -1,0 +1,12 @@
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\bin\Debug\net8.0\eAppointmentServer.Domain.deps.json
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\bin\Debug\net8.0\eAppointmentServer.Domain.dll
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\bin\Debug\net8.0\eAppointmentServer.Domain.pdb
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.AssemblyInfoInputs.cache
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.AssemblyInfo.cs
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.csproj.CoreCompileInputs.cache
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.dll
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\refint\eAppointmentServer.Domain.dll
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.pdb
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\ref\eAppointmentServer.Domain.dll
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.csproj.AssemblyReference.cache
