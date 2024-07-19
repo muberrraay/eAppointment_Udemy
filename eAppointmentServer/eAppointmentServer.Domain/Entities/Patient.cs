@@ -9,7 +9,8 @@
         public string City {  get; set; } = string.Empty;
         public string Town { get; set; } = string.Empty;
         public string FullAdress { get; set; } = string.Empty;
-        public Patient() { 
+        public Patient() {
+
             Id = Guid.NewGuid();
         }
 

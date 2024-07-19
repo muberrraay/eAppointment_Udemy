@@ -2,7 +2,8 @@
 
 namespace eAppointmentServer.Domain.Entities
 {
-    public sealed class AppUserRole : IdentityRole<Guid>
+    public sealed class AppUserRole : IdentityUserRole<Guid>
     {
+
     }
 }

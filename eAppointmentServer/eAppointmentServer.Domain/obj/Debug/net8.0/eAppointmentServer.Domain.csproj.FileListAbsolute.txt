@@ -10,3 +10,4 @@ C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\re
 C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.pdb
 C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\ref\eAppointmentServer.Domain.dll
 C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.csproj.AssemblyReference.cache
+C:\eAppointment\eAppointmentServer\eAppointmentServer.Domain\obj\Debug\net8.0\eAppointmentServer.Domain.sourcelink.json

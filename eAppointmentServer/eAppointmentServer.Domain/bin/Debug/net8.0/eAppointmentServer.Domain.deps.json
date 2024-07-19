@@ -8,10 +8,34 @@
     ".NETCoreApp,Version=v8.0": {
       "eAppointmentServer.Domain/1.0.0": {
         "dependencies": {
+          "Ardalis.SmartEnum": "8.0.0",
+          "EntityFrameworkCore.GenericRepository.Nuget": "1.0.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7"
         },
         "runtime": {
           "eAppointmentServer.Domain.dll": {}
+        }
+      },
+      "Ardalis.SmartEnum/8.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Ardalis.SmartEnum.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.7"
+        },
+        "runtime": {
+          "lib/net7.0/GenericRepository.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.7": {
@@ -205,7 +229,8 @@
             "fileVersion": "8.0.23.53103"
           }
         }
-      }
+      },
+      "System.ComponentModel.Annotations/5.0.0": {}
     }
   },
   "libraries": {
@@ -213,6 +238,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Ardalis.SmartEnum/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qGIfpKhSQeLouycBLosGD4qFqgPa5NKzzkH/59oSHyfs3FSbaO6JChpNEMnkslOyQRLbRXj2ImkA0uZdX19IZA==",
+      "path": "ardalis.smartenum/8.0.0",
+      "hashPath": "ardalis.smartenum.8.0.0.nupkg.sha512"
+    },
+    "EntityFrameworkCore.GenericRepository.Nuget/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JlrKF7G25oswewA7qN30H/9RlcWn2EkKsOvjVRpYaS9x6QAoZHQC+yA2yQyIckbU2r/elJdSzako8cD28Z1a5A==",
+      "path": "entityframeworkcore.genericrepository.nuget/1.0.2",
+      "hashPath": "entityframeworkcore.genericrepository.nuget.1.0.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.7": {
       "type": "package",
@@ -339,6 +378,13 @@
       "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
       "path": "microsoft.extensions.primitives/8.0.0",
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
     }
   }
 }

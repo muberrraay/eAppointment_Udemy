@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{81FA6431-71E0-4B4F-B614-E905BC616BB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Domain", "eAppointmentServer.Domain\eAppointmentServer.Domain.csproj", "{81FA6431-71E0-4B4F-B614-E905BC616BB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{01A98634-AB0E-4FBF-B531-5901A0356695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Application", "eAppointmentServer.Application\eAppointmentServer.Application.csproj", "{01A98634-AB0E-4FBF-B531-5901A0356695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.Infrastructure", "eAppointmentServer.Infrastructure\eAppointmentServer.Infrastructure.csproj", "{3ABDEC22-09EB-45B9-B673-B03E52C50EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eAppointmentServer.Infrastructure", "eAppointmentServer.Infrastructure\eAppointmentServer.Infrastructure.csproj", "{3ABDEC22-09EB-45B9-B673-B03E52C50EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eAppointmentServer.WebAPI", "eAppointmentServer.WebAPI\eAppointmentServer.WebAPI.csproj", "{3CC4F015-34BC-4C52-AA09-8E2FB87FE694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3ABDEC22-09EB-45B9-B673-B03E52C50EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ABDEC22-09EB-45B9-B673-B03E52C50EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ABDEC22-09EB-45B9-B673-B03E52C50EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC4F015-34BC-4C52-AA09-8E2FB87FE694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC4F015-34BC-4C52-AA09-8E2FB87FE694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC4F015-34BC-4C52-AA09-8E2FB87FE694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC4F015-34BC-4C52-AA09-8E2FB87FE694}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
