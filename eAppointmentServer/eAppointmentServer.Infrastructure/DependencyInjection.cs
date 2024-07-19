@@ -1,8 +1,15 @@
-﻿using eAppointmentServer.Domain.Entities;
+﻿using eAppointmentServer.Application.Services;
+using eAppointmentServer.Domain.Entities;
+using eAppointmentServer.Domain.Repositories;
 using eAppointmentServer.Infrastructure.Context;
+using eAppointmentServer.Infrastructure.Repositories;
+using eAppointmentServer.Infrastructure.Services;
+using GenericRepository;
+using Invio.Extensions.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Scrutor;
 
 namespace eAppointmentServer.Infrastructure
 {
@@ -24,6 +31,20 @@ namespace eAppointmentServer.Infrastructure
                 action.Password.RequireLowercase = false;
                 action.Password.RequireUppercase = false;
             }).AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddScoped<IUnitOfWork>(srv => srv.GetRequiredService<ApplicationDbContext>());
+
+            services.Scan(action =>
+            {
+                action
+                .FromAssemblies(typeof(DependencyInjection).Assembly)
+                .AddClasses(publicOnly: false)
+                .UsingRegistrationStrategy(registrationStrategy: RegistrationStrategy.Skip)
+                .AsImplementedInterfaces()
+                .WithScopedLifetime();
+            }); 
+
+
             return services;
         }
     }
