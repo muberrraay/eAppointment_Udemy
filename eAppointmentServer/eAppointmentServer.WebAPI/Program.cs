@@ -1,9 +1,14 @@
+using Azure.Identity;
+using DefaultCorsPolicyNugetPackage;
 using eAppointmentServer.Application;
+using eAppointmentServer.Domain.Entities;
 using eAppointmentServer.Infrastructure;
+using eAppointmentServer.WebAPI;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.AddDefaultCors();
 builder.Services.AddAplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -21,10 +26,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors();
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+Helper.CreateUserAsync(app).Wait();
 
 app.Run();
